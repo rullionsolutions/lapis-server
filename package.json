@@ -1,0 +1,20 @@
+{
+  "name": "lapis-server",
+  "version": "0.0.0",
+  "description": "Server-Specific Components (mainly node)",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rullionsolutions/lapis-server"
+  },
+  "author": "stephen.d.francis@gmail.com",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "underscore": ">= 1.0.0",
+    "lapis-core": ">= 0.0.0",
+    "lapis-data": ">= 0.0.0"
+  }
+}
